@@ -1,0 +1,116 @@
+:root {
+    --navbar-background: #181818;
+    --navbar-text: #5A23F9;
+    --navbar-text-hover: #2A1176;
+  }
+  
+  nav.navbar {
+    height: auto;
+    min-height: 80px;
+    width: 100%;
+    background-color: var(--navbar-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+  }
+  
+  nav.navbar div.navbar-container {
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav.navbar div.navbar-container div.grid-first {
+    height: 100%;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav.navbar div.navbar-container div.grid-first button.button-menu {
+    height: 100%;
+    width: auto;
+    display: none;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+  }
+  
+  nav.navbar div.navbar-container div.grid-first button.button-menu img.button-menu {
+    height: 30px;
+    width: auto;
+  }
+  
+  nav.navbar div.navbar-container div.grid-first a.logo img.logo {
+    height: 35px;
+    width: auto;
+  }
+  
+  nav.navbar div.navbar-container div.grid-second {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav.navbar div.navbar-container div.grid-second a.nav-link {
+    margin: 0 1.5vw;
+    font-size: 1em;
+    color: var(--navbar-text);
+    font-weight: 500;
+  }
+  
+  nav.navbar div.navbar-container div.grid-second a.nav-link:hover {
+    color: var(--navbar-text-hover);
+  }
+  
+  @media screen and (max-width: 850px) {
+    nav.navbar {
+      height: auto;
+      padding-top: 15px;
+    }
+  
+    nav.navbar div.navbar-container {
+      height: 90%;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    nav.navbar div.navbar-container div.grid-first {
+      height: fit-content;
+      width: 100%;
+    }
+  
+    nav.navbar div.navbar-container div.grid-first button.button-menu {
+      display: flex;
+    }
+  
+    nav.navbar div.navbar-container div.grid-second {
+      height: fit-content;
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    nav.navbar div.navbar-container div.grid-second a.nav-link {
+      width: 100%;
+      text-align: center;
+      margin: 0.8vh 0;
+      padding: 3px;
+      border-bottom: 1px solid;
+    }
+  
+    nav.navbar div.navbar-container div.grid-second button.access {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    nav.navbar div.navbar-container div.grid-second button.access img {
+      margin-right: 5px;
+    }
+  }
