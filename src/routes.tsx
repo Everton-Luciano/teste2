@@ -7,7 +7,7 @@ import About from './pages/About';
 const Routes = () => {
     const routes = createBrowserRouter([
         {
-            path: '/',
+            path: 'https://everton-luciano.github.io/teste2',
             element: <Home/>,
             errorElement: <div>Deu ruim</div>
         },
