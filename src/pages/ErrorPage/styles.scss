@@ -1,0 +1,58 @@
+$pageColor: #252525;
+$boxColor: #292929;
+$boxBorderColor: #191919b2;
+$titleColor: #F1F2F8; 
+$labelColor: #8C869F;
+$buttonTextColor: #F1F2F8;
+$buttonColor: #383838;
+$buttonColorHover: #202020;
+
+.error-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $pageColor;
+    .message-box {
+        max-width: 90vw;
+        background-color: $boxColor;
+        border: 6px solid $boxBorderColor;
+        .content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            padding: 25px 40px;
+            
+            h1 {
+                margin-bottom: 25px;
+                font-size: 45px;
+                font-weight: 500;
+                color: $titleColor;
+            }
+            label {
+                margin: 0 0 25px 5px;
+                font-size: 20px;
+                color: $labelColor;
+            }
+            a {
+                align-self: center;
+                margin: 20px 0;
+                button {
+                    padding: 10px 30px;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: $buttonTextColor;
+                    background-color: $buttonColor;
+                    border: none;
+                    border-radius: 5px;
+                    &:hover {
+                        background-color: $buttonColorHover;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
