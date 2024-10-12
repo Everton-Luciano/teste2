@@ -13,7 +13,7 @@ const Routes = () => {
             errorElement: <ErrorPage/>
         },
         {
-            path: '/teste2/about',
+            path: '/teste2/about/',
             element: <About/>,
             // errorElement: <ErrorPage/>
         }
