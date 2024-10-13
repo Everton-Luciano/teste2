@@ -10,7 +10,7 @@ const ErrorPage = () => {
                 <div className="content">
                     <h1>Ops!!! Página não encontrada.</h1>
                     <label>Clique no botão abaixo para voltar à página principal.</label>
-                    <Link to="/about"><button>Voltar</button></Link>
+                    <Link to="/teste2/about"><button>Voltar</button></Link>
                 </div>
             </div>
         </div>

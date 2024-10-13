@@ -8,12 +8,12 @@ import About from './pages/About';
 const Routes = () => {
     const routes = createBrowserRouter([
         {
-            path: '/',
+            path: '/teste2',
             element: <Home/>,
             errorElement: <ErrorPage/>
         },
         {
-            path: '/about',
+            path: '/teste2/about',
             element: <About/>,
             // errorElement: <ErrorPage/>
         }
