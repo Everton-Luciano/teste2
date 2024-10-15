@@ -15,7 +15,7 @@ const Routes = () => {
         {
             path: '/teste2/about',
             element: <About/>,
-            // errorElement: <ErrorPage/>
+            errorElement: <ErrorPage/>
         }
     ]);
 
