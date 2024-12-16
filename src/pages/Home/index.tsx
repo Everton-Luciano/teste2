@@ -23,7 +23,7 @@ const Home = () => {
             <nav className="dark-navbar">
                 <div className="navbar-container">
                     <div className="grid-first">
-                        <a href="/#" className="logo">
+                        <a href="/teste2/about" className="logo">
                             <img src={logo} alt="" className="logo" />
                         </a>
                         <button className="button-menu" onClick={handleButtonMenu}>
